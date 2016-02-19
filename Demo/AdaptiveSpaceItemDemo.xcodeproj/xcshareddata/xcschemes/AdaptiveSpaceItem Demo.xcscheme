@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E24C8F801C761258000EEF6B"
                BuildableName = "AdaptiveSpaceItem Demo.app"
                BlueprintName = "AdaptiveSpaceItem Demo"
-               ReferencedContainer = "container:AdaptiveSpaceItem Demo.xcodeproj">
+               ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "E24C8F801C761258000EEF6B"
             BuildableName = "AdaptiveSpaceItem Demo.app"
             BlueprintName = "AdaptiveSpaceItem Demo"
-            ReferencedContainer = "container:AdaptiveSpaceItem Demo.xcodeproj">
+            ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "E24C8F801C761258000EEF6B"
             BuildableName = "AdaptiveSpaceItem Demo.app"
             BlueprintName = "AdaptiveSpaceItem Demo"
-            ReferencedContainer = "container:AdaptiveSpaceItem Demo.xcodeproj">
+            ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "E24C8F801C761258000EEF6B"
             BuildableName = "AdaptiveSpaceItem Demo.app"
             BlueprintName = "AdaptiveSpaceItem Demo"
-            ReferencedContainer = "container:AdaptiveSpaceItem Demo.xcodeproj">
+            ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

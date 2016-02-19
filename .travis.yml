@@ -4,11 +4,11 @@ notifications:
   email: false
 env:
   global:
-  - PROJECT=Demo/AdaptiveSpaceItem Demo.xcodeproj
+  - PROJECT=Demo/AdaptiveSpaceItemDemo.xcodeproj
   - OSX_SCHEME="AdaptiveSpaceItem Demo"
   - OSX_SDK=macosx10.11
   matrix:    
-    - DESTINATION="arch=x86_64"                  SCHEME="$OSX_SCHEME"   SDK="$OSX_SDK"   RUN_TESTS="NO" BUILD_EXAMPLE="YES"  POD_LINT="NO"
+    - DESTINATION="arch=x86_64" SCHEME="$OSX_SCHEME"   SDK="$OSX_SDK"   RUN_TESTS="NO" BUILD_EXAMPLE="YES"  POD_LINT="NO"
 
 script:
   - set -o pipefail
