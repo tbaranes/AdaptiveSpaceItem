@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E24C8F811C761258000EEF6B /* AdaptiveSpaceItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveSpaceItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24C8F811C761258000EEF6B /* AdaptiveSpaceItem Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdaptiveSpaceItem Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24C8F841C761258000EEF6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24C8F861C761258000EEF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24C8F891C761258000EEF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		E24C8F821C761258000EEF6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E24C8F811C761258000EEF6B /* AdaptiveSpaceItem.app */,
+				E24C8F811C761258000EEF6B /* AdaptiveSpaceItem Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,9 +61,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E24C8F801C761258000EEF6B /* AdaptiveSpaceItem */ = {
+		E24C8F801C761258000EEF6B /* AdaptiveSpaceItem Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E24C8F8E1C761258000EEF6B /* Build configuration list for PBXNativeTarget "AdaptiveSpaceItem" */;
+			buildConfigurationList = E24C8F8E1C761258000EEF6B /* Build configuration list for PBXNativeTarget "AdaptiveSpaceItem Demo" */;
 			buildPhases = (
 				E24C8F7D1C761258000EEF6B /* Sources */,
 				E24C8F7E1C761258000EEF6B /* Frameworks */,
@@ -73,9 +73,9 @@
 			);
 			dependencies = (
 			);
-			name = AdaptiveSpaceItem;
+			name = "AdaptiveSpaceItem Demo";
 			productName = AdaptiveSpaceItem;
-			productReference = E24C8F811C761258000EEF6B /* AdaptiveSpaceItem.app */;
+			productReference = E24C8F811C761258000EEF6B /* AdaptiveSpaceItem Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,7 +93,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "AdaptiveSpaceItem" */;
+			buildConfigurationList = E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "AdaptiveSpaceItemDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -106,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E24C8F801C761258000EEF6B /* AdaptiveSpaceItem */,
+				E24C8F801C761258000EEF6B /* AdaptiveSpaceItem Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +233,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AdaptiveSpaceItem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -245,6 +246,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AdaptiveSpaceItem/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -253,7 +255,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "AdaptiveSpaceItem" */ = {
+		E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "AdaptiveSpaceItemDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E24C8F8C1C761258000EEF6B /* Debug */,
@@ -262,13 +264,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E24C8F8E1C761258000EEF6B /* Build configuration list for PBXNativeTarget "AdaptiveSpaceItem" */ = {
+		E24C8F8E1C761258000EEF6B /* Build configuration list for PBXNativeTarget "AdaptiveSpaceItem Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E24C8F8F1C761258000EEF6B /* Debug */,
 				E24C8F901C761258000EEF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
