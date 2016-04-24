@@ -1,7 +1,7 @@
 # AdaptiveSpaceItem
 
 [![Travis](https://img.shields.io/travis/recisio/AdaptiveSpaceItem.svg)](https://travis-ci.org/recisio/AdaptiveSpaceItem)
-![Language](https://img.shields.io/badge/language-Swift%202-orange.svg)
+![Language](https://img.shields.io/badge/language-Swift%202.2-orange.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/AdaptiveSpaceItem.svg?style=flat)](https://github.com/recisio/AdaptiveSpaceItem)
 [![Platform](https://img.shields.io/cocoapods/p/AdaptiveSpaceItem.svg?style=flat)](http://cocoadocs.org/docsets/AdaptiveSpaceItem)
 [![License](https://img.shields.io/cocoapods/l/AdaptiveSpaceItem.svg?style=flat)](http://cocoapods.org/pods/AdaptiveSpaceItem)
