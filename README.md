@@ -40,7 +40,7 @@ Just drag the `Source/*.swift` files into your project.
 
 ## Usage
 
-Using Interface Builder add an "Image Toolbar Item" to your toolbar and set its class to TAAdaptiveSpaceItem. The next item will be centered in the toolbar.
+Using Interface Builder add an "Image Toolbar Item" to your toolbar and set its class to AdaptiveSpaceItem. The next item will be centered in the toolbar.
 
 ## What's next
 
