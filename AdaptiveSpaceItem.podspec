@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
 s.name            	= "AdaptiveSpaceItem"
-s.version          	= "1.0.1"
+s.version          	= "1.0.2"
 s.summary          	= "A NSToolbarItem which will create space to center the next toolbar item"
 s.description      	= "A NSToolbarItem sublclass which will create space to center the next toolbar item"
 s.homepage         	= "https://github.com/recisio/AdaptiveSpaceItem"
