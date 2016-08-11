@@ -84,6 +84,11 @@ class AdaptiveSpaceItemView: NSView {
 
     // MARK: - Life cycle
 
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        adaptiveSpaceItem?.updateWidth()
+    }
+    
     override func viewDidMoveToWindow() {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(windowDidResize), name: NSWindowDidResizeNotification, object: self.window)
     }
