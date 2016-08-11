@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E24C8F801C761258000EEF6B"
-               BuildableName = "AdaptiveSpaceItem Demo.app"
-               BlueprintName = "AdaptiveSpaceItem Demo"
-               ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
+               BlueprintIdentifier = "E2E005671D3D70C90003C134"
+               BuildableName = "AdaptiveSpaceItem.framework"
+               BlueprintName = "AdaptiveSpaceItem"
+               ReferencedContainer = "container:AdaptiveSpaceItem.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E2E005701D3D70C90003C134"
+               BuildableName = "AdaptiveSpaceItemTests.xctest"
+               BlueprintName = "AdaptiveSpaceItemTests"
+               ReferencedContainer = "container:AdaptiveSpaceItem.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E24C8F801C761258000EEF6B"
-            BuildableName = "AdaptiveSpaceItem Demo.app"
-            BlueprintName = "AdaptiveSpaceItem Demo"
-            ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
+            BlueprintIdentifier = "E2E005671D3D70C90003C134"
+            BuildableName = "AdaptiveSpaceItem.framework"
+            BlueprintName = "AdaptiveSpaceItem"
+            ReferencedContainer = "container:AdaptiveSpaceItem.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E24C8F801C761258000EEF6B"
-            BuildableName = "AdaptiveSpaceItem Demo.app"
-            BlueprintName = "AdaptiveSpaceItem Demo"
-            ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
+            BlueprintIdentifier = "E2E005671D3D70C90003C134"
+            BuildableName = "AdaptiveSpaceItem.framework"
+            BlueprintName = "AdaptiveSpaceItem"
+            ReferencedContainer = "container:AdaptiveSpaceItem.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E24C8F801C761258000EEF6B"
-            BuildableName = "AdaptiveSpaceItem Demo.app"
-            BlueprintName = "AdaptiveSpaceItem Demo"
-            ReferencedContainer = "container:AdaptiveSpaceItemDemo.xcodeproj">
+            BlueprintIdentifier = "E2E005671D3D70C90003C134"
+            BuildableName = "AdaptiveSpaceItem.framework"
+            BlueprintName = "AdaptiveSpaceItem"
+            ReferencedContainer = "container:AdaptiveSpaceItem.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

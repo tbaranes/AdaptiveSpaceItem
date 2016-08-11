@@ -10,6 +10,7 @@
 		E24C8F851C761258000EEF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C8F841C761258000EEF6B /* AppDelegate.swift */; };
 		E24C8F871C761258000EEF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24C8F861C761258000EEF6B /* Assets.xcassets */; };
 		E24C8F8A1C761258000EEF6B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24C8F881C761258000EEF6B /* MainMenu.xib */; };
+		E2FE9B4B1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9B4A1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		E24C8F861C761258000EEF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24C8F891C761258000EEF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E24C8F8B1C761258000EEF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FE9B4A1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdaptiveSpaceItem.swift; path = /Users/Tom/Developer/AdaptiveSpaceItem/AdaptiveSpaceItem/AdaptiveSpaceItem/../../Sources/AdaptiveSpaceItem.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +52,14 @@
 		E24C8F831C761258000EEF6B /* AdaptiveSpaceItem */ = {
 			isa = PBXGroup;
 			children = (
+				E2FE9B4A1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift */,
 				E24C8F841C761258000EEF6B /* AppDelegate.swift */,
 				E24C8F861C761258000EEF6B /* Assets.xcassets */,
 				E24C8F881C761258000EEF6B /* MainMenu.xib */,
 				E24C8F8B1C761258000EEF6B /* Info.plist */,
 			);
-			path = AdaptiveSpaceItem;
+			name = AdaptiveSpaceItem;
+			path = "macOS Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,15 +89,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Recisio;
 				TargetAttributes = {
 					E24C8F801C761258000EEF6B = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "AdaptiveSpaceItemDemo" */;
+			buildConfigurationList = E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "macOS Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24C8F851C761258000EEF6B /* AppDelegate.swift in Sources */,
+				E2FE9B4B1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +237,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AdaptiveSpaceItem/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -244,18 +251,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AdaptiveSpaceItem/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/macOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "AdaptiveSpaceItemDemo" */ = {
+		E24C8F7C1C761258000EEF6B /* Build configuration list for PBXProject "macOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E24C8F8C1C761258000EEF6B /* Debug */,
