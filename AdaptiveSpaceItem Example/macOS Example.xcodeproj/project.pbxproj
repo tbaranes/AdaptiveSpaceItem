@@ -10,10 +10,34 @@
 		E24C8F851C761258000EEF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C8F841C761258000EEF6B /* AppDelegate.swift */; };
 		E24C8F871C761258000EEF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24C8F861C761258000EEF6B /* Assets.xcassets */; };
 		E24C8F8A1C761258000EEF6B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24C8F881C761258000EEF6B /* MainMenu.xib */; };
-		E280E8D01D5E57B400A9D893 /* AdaptiveSpaceItem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E280E8CF1D5E57B400A9D893 /* AdaptiveSpaceItem.framework */; };
-		E280E8D11D5E57B400A9D893 /* AdaptiveSpaceItem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E280E8CF1D5E57B400A9D893 /* AdaptiveSpaceItem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2D306381D67880D004896F5 /* AdaptiveSpaceItem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D306351D678806004896F5 /* AdaptiveSpaceItem.framework */; };
+		E2D306391D67880D004896F5 /* AdaptiveSpaceItem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2D306351D678806004896F5 /* AdaptiveSpaceItem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E2FE9B4B1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9B4A1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2D306341D678806004896F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D3062F1D678806004896F5 /* AdaptiveSpaceItem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2E005681D3D70C90003C134;
+			remoteInfo = AdaptiveSpaceItem;
+		};
+		E2D306361D678806004896F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D3062F1D678806004896F5 /* AdaptiveSpaceItem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2E005711D3D70C90003C134;
+			remoteInfo = AdaptiveSpaceItemTests;
+		};
+		E2D3063A1D67880D004896F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D3062F1D678806004896F5 /* AdaptiveSpaceItem.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E2E005671D3D70C90003C134;
+			remoteInfo = AdaptiveSpaceItem;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E280E8D21D5E57B500A9D893 /* Embed Frameworks */ = {
@@ -22,7 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E280E8D11D5E57B400A9D893 /* AdaptiveSpaceItem.framework in Embed Frameworks */,
+				E2D306391D67880D004896F5 /* AdaptiveSpaceItem.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +59,7 @@
 		E24C8F861C761258000EEF6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24C8F891C761258000EEF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E24C8F8B1C761258000EEF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E280E8CF1D5E57B400A9D893 /* AdaptiveSpaceItem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = AdaptiveSpaceItem.framework; path = "/Users/Tom/Library/Developer/Xcode/DerivedData/AdaptiveSpaceItem-fmreryekgdukjedlmpfowkjxrcjd/Build/Products/Debug/AdaptiveSpaceItem.framework"; sourceTree = "<absolute>"; };
+		E2D3062F1D678806004896F5 /* AdaptiveSpaceItem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AdaptiveSpaceItem.xcodeproj; path = ../AdaptiveSpaceItem/AdaptiveSpaceItem.xcodeproj; sourceTree = "<group>"; };
 		E2FE9B4A1D5C5B9E00E0820E /* AdaptiveSpaceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdaptiveSpaceItem.swift; path = /Users/Tom/Developer/AdaptiveSpaceItem/AdaptiveSpaceItem/AdaptiveSpaceItem/../../Sources/AdaptiveSpaceItem.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E280E8D01D5E57B400A9D893 /* AdaptiveSpaceItem.framework in Frameworks */,
+				E2D306381D67880D004896F5 /* AdaptiveSpaceItem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,9 +78,9 @@
 		E24C8F781C761258000EEF6B = {
 			isa = PBXGroup;
 			children = (
-				E280E8CF1D5E57B400A9D893 /* AdaptiveSpaceItem.framework */,
 				E24C8F831C761258000EEF6B /* AdaptiveSpaceItem */,
 				E24C8F821C761258000EEF6B /* Products */,
+				E2D3062F1D678806004896F5 /* AdaptiveSpaceItem.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +105,15 @@
 			path = "macOS Example";
 			sourceTree = "<group>";
 		};
+		E2D306301D678806004896F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D306351D678806004896F5 /* AdaptiveSpaceItem.framework */,
+				E2D306371D678806004896F5 /* AdaptiveSpaceItemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,6 +129,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E2D3063B1D67880D004896F5 /* PBXTargetDependency */,
 			);
 			name = "AdaptiveSpaceItem Demo";
 			productName = AdaptiveSpaceItem;
@@ -129,12 +163,35 @@
 			mainGroup = E24C8F781C761258000EEF6B;
 			productRefGroup = E24C8F821C761258000EEF6B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E2D306301D678806004896F5 /* Products */;
+					ProjectRef = E2D3062F1D678806004896F5 /* AdaptiveSpaceItem.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E24C8F801C761258000EEF6B /* AdaptiveSpaceItem Demo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E2D306351D678806004896F5 /* AdaptiveSpaceItem.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AdaptiveSpaceItem.framework;
+			remoteRef = E2D306341D678806004896F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E2D306371D678806004896F5 /* AdaptiveSpaceItemTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AdaptiveSpaceItemTests.xctest;
+			remoteRef = E2D306361D678806004896F5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E24C8F7F1C761258000EEF6B /* Resources */ = {
@@ -159,6 +216,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D3063B1D67880D004896F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdaptiveSpaceItem;
+			targetProxy = E2D3063A1D67880D004896F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E24C8F881C761258000EEF6B /* MainMenu.xib */ = {
@@ -255,6 +320,7 @@
 		E24C8F8F1C761258000EEF6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/macOS Example/Info.plist";
@@ -269,6 +335,7 @@
 		E24C8F901C761258000EEF6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/macOS Example/Info.plist";

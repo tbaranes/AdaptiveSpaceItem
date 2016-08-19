@@ -47,10 +47,9 @@ public class AdaptiveSpaceItem: NSToolbarItem {
 
     private func minSize() -> NSSize {
         let items = toolbar?.items
-        let index = items?.indexOf(self)
-        guard let unwrappedIndex = index,
-            unwrappedItems = items,
-            superviewFrame = view?.superview?.frame where superviewFrame.origin.x > 0 else {
+        let index = items?.index(of: self)
+        guard let unwrappedIndex = index, let unwrappedItems = items,
+            let superviewFrame = view?.superview?.frame, superviewFrame.origin.x > 0 else {
                 return minSize
         }
 
@@ -90,11 +89,11 @@ class AdaptiveSpaceItemView: NSView {
     }
     
     override func viewDidMoveToWindow() {
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(windowDidResize), name: NSWindowDidResizeNotification, object: self.window)
+        NotificationCenter.default.addObserver(self, selector: #selector(windowDidResize), name: NSNotification.Name.NSWindowDidResize, object: self.window)
     }
 
     deinit {
-        NSNotificationCenter.defaultCenter().removeObserver(self)
+        NotificationCenter.default.removeObserver(self)
     }
 
     // MARK: - Notifications
