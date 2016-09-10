@@ -11,32 +11,13 @@ env:
   - MACOS_SDK=macosx10.12
   - EXAMPLE_SCHEME="AdaptiveSpaceItem Demo"
   matrix:
-    - DESTINATION="arch=x86_64"   SCHEME="$MACOS_FRAMEWORK_SCHEME"   SDK="$MACOS_SDK"   RUN_TESTS="NO" BUILD_EXAMPLE="YES"  POD_LINT="YES"
+    - DESTINATION="arch=x86_64"   SCHEME="$MACOS_FRAMEWORK_SCHEME"   SDK="$MACOS_SDK"  BUILD_EXAMPLE="YES"
 script:
   - set -o pipefail
   - xcodebuild -version
   - xcodebuild -showsdks
 
-  # Build Framework in Debug and Run Tests if specified
-  - if [ $RUN_TESTS == "YES" ]; then
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c;
-    else
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
-    fi
-
-  # Build Framework in ReleaseTest and Run Tests if specified
-  - if [ $RUN_TESTS == "YES" ]; then
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration ReleaseTest ONLY_ACTIVE_ARCH=NO test | xcpretty -c;
-    else
-      xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration ReleaseTest ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
-    fi
-
   # Build Example in Debug if specified
   - if [ $BUILD_EXAMPLE == "YES" ]; then
       xcodebuild -workspace "$WORKSPACE" -scheme "$EXAMPLE_SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
-    fi
-
-  # Run `pod lib lint` if specified
-  - if [ $POD_LINT == "YES" ]; then
-      pod lib lint;
     fi
