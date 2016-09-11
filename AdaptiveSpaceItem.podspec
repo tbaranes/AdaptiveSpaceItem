@@ -16,6 +16,6 @@ s.source           	= { :git => "https://github.com/recisio/AdaptiveSpaceItem.gi
 s.osx.deployment_target 	= '10.10'
 
 s.requires_arc 	   			= true
-s.source_files				= 'Sources/*.swift'
+s.source_files				= 'Source/*.swift'
 
 end

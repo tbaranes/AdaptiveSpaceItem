@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2A4B6681D8476D4005E6710 /* AdaptiveSpaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A4B6671D8476D4005E6710 /* AdaptiveSpaceItem.swift */; };
 		E2E005721D3D70C90003C134 /* AdaptiveSpaceItem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E005681D3D70C90003C134 /* AdaptiveSpaceItem.framework */; };
 		E2E005791D3D70C90003C134 /* AdaptiveSpaceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E0056B1D3D70C90003C134 /* AdaptiveSpaceItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2E005861D3D71B50003C134 /* AdaptiveSpaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E005851D3D71B50003C134 /* AdaptiveSpaceItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +23,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2A4B6671D8476D4005E6710 /* AdaptiveSpaceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveSpaceItem.swift; sourceTree = "<group>"; };
 		E2E005681D3D70C90003C134 /* AdaptiveSpaceItem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdaptiveSpaceItem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E0056B1D3D70C90003C134 /* AdaptiveSpaceItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptiveSpaceItem.h; sourceTree = "<group>"; };
 		E2E0056C1D3D70C90003C134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E005711D3D70C90003C134 /* AdaptiveSpaceItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveSpaceItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E005781D3D70C90003C134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2E005851D3D71B50003C134 /* AdaptiveSpaceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdaptiveSpaceItem.swift; path = ../../Sources/AdaptiveSpaceItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2A4B6661D8476D4005E6710 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E2A4B6671D8476D4005E6710 /* AdaptiveSpaceItem.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		E2E0055E1D3D70C90003C134 = {
 			isa = PBXGroup;
 			children = (
+				E2A4B6661D8476D4005E6710 /* Source */,
 				E2E0056A1D3D70C90003C134 /* AdaptiveSpaceItem */,
 				E2E005751D3D70C90003C134 /* AdaptiveSpaceItemTests */,
 				E2E005691D3D70C90003C134 /* Products */,
@@ -71,7 +80,6 @@
 		E2E0056A1D3D70C90003C134 /* AdaptiveSpaceItem */ = {
 			isa = PBXGroup;
 			children = (
-				E2E005851D3D71B50003C134 /* AdaptiveSpaceItem.swift */,
 				E2E0056B1D3D70C90003C134 /* AdaptiveSpaceItem.h */,
 				E2E0056C1D3D70C90003C134 /* Info.plist */,
 			);
@@ -108,6 +116,7 @@
 				E2E005641D3D70C90003C134 /* Frameworks */,
 				E2E005651D3D70C90003C134 /* Headers */,
 				E2E005661D3D70C90003C134 /* Resources */,
+				E27C4AE01D67914A004FFBA4 /* Run Script - ⚠️ SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -195,12 +204,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E27C4AE01D67914A004FFBA4 /* Run Script - ⚠️ SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - ⚠️ SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2E005631D3D70C90003C134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2E005861D3D71B50003C134 /* AdaptiveSpaceItem.swift in Sources */,
+				E2A4B6681D8476D4005E6710 /* AdaptiveSpaceItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +383,7 @@
 		E2E005801D3D70C90003C134 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AdaptiveSpaceItemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -368,6 +395,7 @@
 		E2E005811D3D70C90003C134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AdaptiveSpaceItemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
