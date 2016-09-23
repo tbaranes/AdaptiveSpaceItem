@@ -3,7 +3,7 @@
 //  AdaptiveSpaceItem
 //
 //  Created by Tom Baranes on 18/07/16.
-//  Copyright © 2016 Recisio. All rights reserved.
+//  Copyright © 2016 Tom Baranes. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

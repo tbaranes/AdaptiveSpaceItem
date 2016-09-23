@@ -1,8 +1,8 @@
 # AdaptiveSpaceItem
 
-[![Travis](https://img.shields.io/travis/recisio/AdaptiveSpaceItem.svg)](https://travis-ci.org/recisio/AdaptiveSpaceItem)
+[![Travis](https://img.shields.io/travis/tbaranes/AdaptiveSpaceItem.svg)](https://travis-ci.org/tbaranes/AdaptiveSpaceItem)
 ![Language](https://img.shields.io/badge/language-Swift%203.0-orange.svg)
-[![CocoaPods](https://img.shields.io/cocoapods/v/AdaptiveSpaceItem.svg?style=flat)](https://github.com/recisio/AdaptiveSpaceItem)
+[![CocoaPods](https://img.shields.io/cocoapods/v/AdaptiveSpaceItem.svg?style=flat)](https://github.com/tbaranes/AdaptiveSpaceItem)
 [![Platform](https://img.shields.io/cocoapods/p/AdaptiveSpaceItem.svg?style=flat)](http://cocoadocs.org/docsets/AdaptiveSpaceItem)
 [![License](https://img.shields.io/cocoapods/l/AdaptiveSpaceItem.svg?style=flat)](http://cocoapods.org/pods/AdaptiveSpaceItem)
 
@@ -29,7 +29,7 @@ import PackageDescription
 
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/recisio/AdaptiveSpaceItem.git", majorVersion: 1)
+        .Package(url: "https://github.com/tbaranes/AdaptiveSpaceItem.git", majorVersion: 1)
     ]
 )
 ```

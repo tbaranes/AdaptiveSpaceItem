@@ -351,7 +351,7 @@
 				INFOPLIST_FILE = AdaptiveSpaceItem/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -373,7 +373,7 @@
 				INFOPLIST_FILE = AdaptiveSpaceItem/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -387,7 +387,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AdaptiveSpaceItemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItemTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.AdaptiveSpaceItemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -399,7 +399,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AdaptiveSpaceItemTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItemTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.AdaptiveSpaceItemTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

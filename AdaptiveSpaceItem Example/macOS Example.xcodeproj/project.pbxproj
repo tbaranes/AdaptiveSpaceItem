@@ -322,7 +322,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/macOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -337,7 +337,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/macOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.recisio.AdaptiveSpaceItem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tbaranes.AdaptiveSpaceItem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
