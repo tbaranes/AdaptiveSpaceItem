@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode8
+osx_image: xcode9
 notifications:
   email: false
 branches:
@@ -11,10 +11,9 @@ env:
   - LANG=en_US.UTF-8
   - WORKSPACE=AdaptiveSpaceItem.xcworkspace
   - MACOS_FRAMEWORK_SCHEME="AdaptiveSpaceItem"
-  - MACOS_SDK=macosx10.12
   - EXAMPLE_SCHEME="AdaptiveSpaceItem Demo"
   matrix:
-    - DESTINATION="arch=x86_64"   SCHEME="$MACOS_FRAMEWORK_SCHEME"   SDK="$MACOS_SDK"  BUILD_EXAMPLE="YES"
+    - DESTINATION="arch=x86_64"   SCHEME="$MACOS_FRAMEWORK_SCHEME"  BUILD_EXAMPLE="YES"
 script:
   - set -o pipefail
   - xcodebuild -version
@@ -22,7 +21,7 @@ script:
 
   # Build Example in Debug if specified
   - if [ $BUILD_EXAMPLE == "YES" ]; then
-      xcodebuild -workspace "$WORKSPACE" -scheme "$EXAMPLE_SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty -c;
+      xcodebuild -workspace "$WORKSPACE" -scheme "$EXAMPLE_SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty;
     fi
 
 after_success:
